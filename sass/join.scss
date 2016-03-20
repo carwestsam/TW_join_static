@@ -4,7 +4,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-body, h1, h2, h3,h4,h5,h6, div, p {
+body, h1, h2, h3,h4,h5,h6, div, p, img{
     display: block;
     margin: 0;
     padding: 0;
@@ -31,16 +31,13 @@ body{
 .logo{
     position: fixed;
     color: red;
+    img{
+        width: 14em;
+    }
 }
 
-.page{
-    position: absolute;
-    display: block;
 
-    height: 100%;
-    width: 100%;
-}
-
+@import "page";
 
 @import "footer";
 
